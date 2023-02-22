@@ -11,7 +11,7 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --main-color: rgb(0, 125, 221);
+  --main-color: rgb(2, 49, 85);
   --bg-color: #fff;
   --text-color: #0f0c27;
   --hover: hsl(180, 6%, 46%);
@@ -23,10 +23,10 @@
 section {
   padding: 50px 10%;
 }
-body.active {
+/* body.active {
   --text-color: #fff;
   --bg-color: #0f0c27;
-}
+} */
 body {
   background: var(--bg-color);
   color: var(--text-color);
@@ -61,9 +61,9 @@ header {
   box-shadow: -3px -3px 7px #ffffff73,
 				2px 2px 5px rgba(94, 104, 121, 0.288);
 }
-header.shadow {
+/* header.shadow {
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
-}
+} */
 .logo {
   font-size: 1.61rem;
   font-weight: 600;
@@ -87,10 +87,10 @@ header.shadow {
   z-index: 10001;
   display: none;
 }
-#darkmode {
+/* #darkmode {
   font-size: 22px;
   cursor: pointer;
-}
+} */
 .home {
   position: relative;
   width: 100%;
@@ -231,14 +231,14 @@ span {
 .react-bar {
   width: 80%;
 }
-.achievements-content {
+.services-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
   gap: 1rem;
   margin-top: 2rem;
 }
-.achievements-box {
+.services-box {
   padding: 20px;
   width: 260px;
   display: flex;
@@ -249,35 +249,35 @@ span {
   border-bottom: 2px solid var(--main-color);
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
-.achievements-box:hover{
+.services-box:hover{
  background-color: var(--main-color);
 }
 
-.achievements-box h3 {
+.services-box h3 {
   font-size: 1rem;
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
 }
-.achievements-box:hover h3{
+.services-box:hover h3{
   color: #fff;
 }
-.achievements-box .bx {
+.services-box .bx {
   padding-top: 2rem;
   font-size: 54px;
   color: var(--main-color);
 }
-.achievements-box:hover .bx{
+.services-box:hover .bx{
   color: #22cf91;
 }
-.achievements-box a {
+.services-box a {
   color: var(--main-color);
   font-size: var(--p-font);
   font-weight: 500;
 }
-.achievements-box:hover a{
+.services-box:hover a{
   color: #8b8a8f;
 }
-.project-content {
+/* .project-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   gap: 1rem;
@@ -294,7 +294,7 @@ span {
 .project-img img:hover {
   transform: scale(1.1);
   transition: 1s;
-}
+} */
 .contact-form {
   display: grid;
   place-items: center;
