@@ -231,14 +231,14 @@ span {
 .react-bar {
   width: 80%;
 }
-.services-content {
+.achievements-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   justify-content: center;
   gap: 1rem;
   margin-top: 2rem;
 }
-.services-box {
+.achievements-box {
   padding: 20px;
   width: 260px;
   display: flex;
@@ -249,49 +249,49 @@ span {
   border-bottom: 2px solid var(--main-color);
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
-.services-box:hover{
+.achievements-box:hover{
  background-color: #02225a;
 }
 
-.services-box h3 {
+.achievements-box h3 {
   font-size: 1rem;
   font-weight: 600;
   margin: 0.7rem 0 0.4rem;
 }
-.services-box:hover h3{
+.achievements-box:hover h3{
   color: #fff;
 }
-.services-box .bx {
+.achievements-box .bx {
   padding-top: 2rem;
   font-size: 54px;
   color: var(--main-color);
 }
-.services-box:hover .bx{
+.achievements-box:hover .bx{
   color: #22cf91;
 }
-.services-box a {
+.achievements-box a {
   color: var(--main-color);
   font-size: var(--p-font);
   font-weight: 500;
 }
-.services-box:hover a{
+.achievements-box:hover a{
   color: #8b8a8f;
 }
-.portfolio-content {
+.project-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   gap: 1rem;
   margin-top: 2rem;
 }
-.portfolio-img {
+.project-img {
   overflow: hidden;
   border-radius: 0.5rem;
 }
-.portfolio-img img {
+.project-img img {
   width: 100%;
   display: block;
 }
-.portfolio-img img:hover {
+.project-img img:hover {
   transform: scale(1.1);
   transition: 1s;
 }
@@ -473,7 +473,7 @@ form textarea {
   .information .info-box span {
     font-size: 1rem;
   }
-  .portfolio-content {
+  .project-content {
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   }
   .contact-form form{
